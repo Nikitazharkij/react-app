@@ -1,18 +1,13 @@
 import React from "react";
-import image from './image.jpg';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
+const Profile = (props) => {
 
-const Profile = () => {
     return (
         <div className="content">
-            <div>
-                <img src={image} alt="image" />
-            </div>
-            <div>
-                ava + description
-            </div>
-            <MyPosts />
+            <ProfileInfo />
+            <MyPosts posts={props.state.posts} addPost={props.addPost} />
         </div>
     );
 }

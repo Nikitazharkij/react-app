@@ -5,7 +5,6 @@
     grid-template-areas:
     "h h"
     "n c";
-
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
 }
@@ -16,20 +15,54 @@
 .header img {
     height: 100%;
 }
+
 .nav {
     grid-area: n;
     background-color: burlywood;
+    padding: 20px;
 }
-.nav .item {
+.nav .item a{
     color: white;
 }
+.nav .item a.active{
+    color: gold;
+}
+
 .content {
     grid-area: c;
     background-color: cornflowerblue;
+    padding-bottom: 20px;
 }
 .content img {
     width: 100%;
 }
+.content .description {
+    padding: 10px;
+}
+.content .myPosts {
+    padding: 10px;
+}
+.posts {
+    margin-top: 20px;
+}
 .posts img {
     width: 40px;
+}
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: cornflowerblue;
+}
+.dialogs .dialog {
+    padding: 5px;
+}
+.dialog a {
+    color: black;
+}
+.dialog a.active {
+    color: gold;
+}
+.dialogs .message {
+    padding: 5px;
 }
