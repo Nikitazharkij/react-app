@@ -13,8 +13,10 @@ const App = (props) => {
                 <Header />
                 <Navbar />
                 <Routes>
-                    <Route path="/" element={<Profile state={props.state.profilePage} addPost={props.addPost} />} />
-                    <Route path="/dialogs/" element={<Dialogs state={props.state.dialogsPage} />} />
+                    <Route path="/" element={<Profile
+                        profilePage={props.state.profilePage}
+                        dispatch={props.dispatch} />} />
+                    <Route path="/dialogs/" element={<Dialogs store={props.store} />} />
                 </Routes>
             </div>
         </BrowserRouter>

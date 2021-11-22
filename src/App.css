@@ -53,6 +53,7 @@
     display: grid;
     grid-template-columns: 2fr 10fr;
     background-color: cornflowerblue;
+    padding: 20px;
 }
 .dialogs .dialog {
     padding: 5px;
