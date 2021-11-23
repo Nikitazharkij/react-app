@@ -13,8 +13,8 @@ const App = (props) => {
                 <Header />
                 <Navbar />
                 <Routes>
-                    <Route path="/" element={<Profile store={props.store} />} />
-                    <Route path="/dialogs/" element={<DialogsContainer store={props.store} />} />
+                    <Route path="/" element={<Profile />} />
+                    <Route path="/dialogs/" element={<DialogsContainer />} />
                 </Routes>
             </div>
         </BrowserRouter>
