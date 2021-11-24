@@ -67,3 +67,7 @@
 .dialogs .message {
     padding: 5px;
 }
+
+.userPhoto {
+    width: 100px;
+}
