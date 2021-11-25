@@ -71,7 +71,15 @@
 .usersContent{
 padding: 20px;
 }
+.usersContent span{
+    margin-right: 5px;
+    cursor: pointer;
+    }
 
 .userPhoto {
     width: 100px;
+}
+
+.usersContent .selectedPage {
+    font-weight: bold;
 }

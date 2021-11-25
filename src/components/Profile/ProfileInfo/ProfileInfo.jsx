@@ -1,11 +1,11 @@
 import React from "react";
-import image from '../image.jpg';
+import image from '../../../img/auto.jpg';
 
 const ProfileInfo = () => {
     return (
         <div className="profileInfo">
             <div>
-                <img src={image} alt="image" />
+                <img src={image} alt="auto" />
             </div>
             <div className="description">
                 ava + description
