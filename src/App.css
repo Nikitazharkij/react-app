@@ -68,6 +68,10 @@
     padding: 5px;
 }
 
+.usersContent{
+padding: 20px;
+}
+
 .userPhoto {
     width: 100px;
 }
