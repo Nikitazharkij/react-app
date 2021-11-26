@@ -83,3 +83,18 @@ padding: 20px;
 .usersContent .selectedPage {
     font-weight: bold;
 }
+
+.usersContent > img {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        display: inline-block;
+}
+
+.description > img {
+    width: 200px;
+}
+
+.preloader {
+    width: 500px;
+}
