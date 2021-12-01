@@ -1,6 +1,7 @@
 import React from "react";
 import image from '../../../img/auto.jpg';
 import Preloader from "../../common/Preloader";
+import ProfileStatus from "./ProfileStatus";
 
 const ProfileInfo = (props) => {
 
@@ -15,7 +16,7 @@ const ProfileInfo = (props) => {
             </div>
             <div className="description">
                 <img src={props.profile.photos.large} />
-                ava + description
+                <ProfileStatus status={"Hello my friends"} />
             </div>
         </div>
     )
